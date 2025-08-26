@@ -25,3 +25,12 @@
 
 9. test_add_book_in_favorites_not_add_duplicate – add_new_book, add_book_in_favorites, get_list_of_favorites_books
     Проверяет, что одна и та же книга не добавляется в избранное повторно.
+
+10. test_get_book_genre_return_correct_genre – add_new_book, set_book_genre, get_book_genre
+    Проверяет, что метод возвращает корректный жанр для уже добавленной книги.
+
+11. test_get_books_genre_return_all_books – add_new_book, get_books_genre
+    Проверяет, что метод возвращает словарь всех книг с их жанрами.
+
+12. test_get_list_of_favorites_books_return_favorites – add_new_book, add_book_in_favorites, get_list_of_favorites_books
+    Проверяет, что метод возвращает список избранных книг, если туда добавить хотя бы одну книгу.
